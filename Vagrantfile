@@ -1,9 +1,9 @@
 VAGRANTFILE_API_VERSION = "2"
 
 cluster = {
-  "master1" => { :ip => "192.168.33.10", :cpus => 1, :mem => 1024 },
-  "master2" => { :ip => "192.168.33.11", :cpus => 1, :mem => 1024 },
-  "master3" => { :ip => "192.168.33.12", :cpus => 1, :mem => 1024 },
+  "master1" => { :ip => "192.168.33.10", :cpus => 1, :mem => 512 },
+  "master2" => { :ip => "192.168.33.11", :cpus => 1, :mem => 512 },
+  "master3" => { :ip => "192.168.33.12", :cpus => 1, :mem => 512 },
 }
  
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
